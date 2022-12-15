@@ -14,9 +14,9 @@ The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool
 
 ## Pipeline summary
 
-1. [GUNZIP](https://github.com/nf-core/modules/blob/master/modules/nf-core/gunzip/main.nf)
-2. a. [BUSCO](https://github.com/nf-core/modules/blob/master/modules/nf-core/busco/main.nf)
-2. b. [FASTAWINDOWS](https://github.com/nf-core/modules/blob/master/modules/nf-core/fastawindows/main.nf)
+* [GUNZIP](https://github.com/nf-core/modules/blob/master/modules/nf-core/gunzip/main.nf) 
+   * [BUSCO](https://github.com/nf-core/modules/blob/master/modules/nf-core/busco/main.nf)
+   * [FASTAWINDOWS](https://github.com/nf-core/modules/blob/master/modules/nf-core/fastawindows/main.nf)
 
 ## Quick Start
 
